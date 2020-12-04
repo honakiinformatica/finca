@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finca Don Carmelo</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<header>
+		<img src="imagenes/logo1.png">
+		<nav id="menu">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="informacion.html">Informacion</a></li>
+				<li><a href="produccion.html">Produccion</a></li>
+				<li><a href="empresa.html">Empresa</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<div id="formulario-central">
+			<h2>Formulario de Contacto</h2>
+				<form action="enviar.php" method="POST" enctype="text/plain">
+			        <ul id="formulario">
+				        <li>Nombre: <input type="text" name="nombre" placeholder="Nombre" required></li>
+				        <li>Apellido: <input type="text" name="apellido" placeholder="Apellido" required></li>
+				        <li>Email: <input type="Email" name="correo" placeholder="Email" required></li>
+				        <li>Telefono: <input type="Telefono" name="telefono" placeholder="numero telefono" required></li>
+				        <li>Mensaje: <textarea name="mensaje" rows="8" placeholder="Mensaje" required></textarea></li>
+				        <li><input type="submit" value="Enviar" id="boton"></li>
+			        </ul>
+		        </form>
+		</div>
+	</section>
+	<footer>
+		<div id="redes-sociales">
+			<a href="https://www.facebook.com/CodornicesDonCarmelo"><img src="imagenes/face.jpg"></a>
+		</div>
+		<div id="datos-empresa">
+			<h3>Contacto</h3>
+		</div>	
+		<nav id="datos">
+			<p><a href="fincadoncarmelo@gmail.com">Mail: amarialatana@gmail.com</a></p>
+			<p>Telefono: 2664027985</p>
+		</nav>	
+		<div id="derechos">
+			<p>copyright &copy; Finca Don Carmelo 2020</p>
+		</div>
+	</footer>
+
+</body>
+</html>
